@@ -6,6 +6,7 @@
 ```bash
 ansible webservers -m ping -u soc -i /etc/ansible/hosts
 
+<img width="902" height="179" alt="image" src="https://github.com/user-attachments/assets/b11f5bda-c53b-4b27-8aad-440f4362a904" />
 
 **Output:**
 ```json
