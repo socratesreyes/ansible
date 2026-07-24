@@ -27,6 +27,10 @@ public key was not copied to the target host's `~/.ssh/authorized_keys`.
 ```bash
 ssh-keygen -t ed25519 -C "ansible-control-node"
 ```
+send public key to target_server
+---
+ssh-copy-id -i ~/.ssh/id_ed25519.pub user@target_server_ip
+---
 
 Configure `ansible.cfg`
 [defaults]
